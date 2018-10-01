@@ -13,7 +13,7 @@ public class AgendaAno {
 		
 		String[][][] mesesDiasHoras = new String[meses][][];
 		
-		System.out.println("Entre com os dias do mês:");
+		System.out.println("Entre com os dias do mï¿½s:");
 		dias = scan.nextInt();
 		
 		mesesDiasHoras = new String[meses][dias][];
@@ -61,7 +61,7 @@ public class AgendaAno {
         			for(int j=0; j<mesesDiasHoras[i].length; j++) {
         				for(int k=0; k<mesesDiasHoras[i][j].length; k++) {
         					if((i == meses) && (j == dias) && (k == horas)) {
-        						System.out.println("No mês "+i+" dia "+j+" "
+        						System.out.println("No mes "+i+" dia "+j+" "
         					    +mesesDiasHoras[i][j][k]+" as "+k+"h");
         						break label1;
 							}
