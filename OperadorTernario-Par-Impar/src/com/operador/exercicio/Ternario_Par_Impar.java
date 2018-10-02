@@ -17,15 +17,15 @@ public class Ternario_Par_Impar {
         }
         
         System.out.print("vetorA = ");
-        for(int i = 0; i < vetorA.length; i++) {
-        	System.out.print(vetorA[i]+" ");
+        for(int vetA: vetorA) {
+        	System.out.print(vetA+" ");
         }
         
         System.out.println();
         
         System.out.print("vetorB = ");
-        for(int i = 0; i < vetorB.length; i++) {
-        	System.out.print(vetorB[i]+" ");
+        for(int vetB: vetorB) {
+        	System.out.print(vetB+" ");
         }
 		
 	}
