@@ -21,8 +21,8 @@ public class Polidromo {
 			}
 		}
 		System.out.print("vetorA = ");
-		for (int i = 0; i < vetorA.length; i++) {
-			System.out.print(vetorA[i] + " ");
+		for (int vetA: vetorA) {
+			System.out.print(vetA + " ");
 		}
 
 		System.out.println();
